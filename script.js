@@ -87,41 +87,13 @@ console.log(`Кількість парних дільників => ${sumDouble.l
 
 
 //Надрукувати повну таблицю множення від 1 до 10.
-let one = [];
-let two = [];
-let three = [];
-let four = [];
-let five = [];
-let six = [];
-let seven = [];
-let eight = [];
-let nine = [];
-let ten = [];
+
 for(let i = 1;i <= 10;i++){
-    one.push(`${i} * 1 = ${i*1}`);
-    two.push(`${i} * 2 = ${i*2}`);
-    three.push(`${i} * 3 = ${i*3}`);
-    four.push(`${i} * 4 = ${i*4}`);
-    five.push(`${i} * 5 = ${i*5}`);
-    six.push(`${i} * 6 = ${i*6}`);
-    seven.push(`${i} * 7 = ${i*7}`);
-    eight.push(`${i} * 8 = ${i*8}`);
-    nine.push(`${i} * 9 = ${i*9}`);
-    ten.push(`${i} * 10 = ${i*10}`);
-    
+    for(let j = 1;j <= 10;j++){
+        
+        console.log(`Таблиця множення на (${i}) => ${i} * ${j} = ${i*j}`);
+    }
 }
-console.log(one);
-console.log(two);
-console.log(three);
-console.log(four);
-console.log(five);
-console.log(six);
-console.log(seven);
-console.log(eight);
-console.log(nine);
-console.log(ten);
-
-
 
 
 
